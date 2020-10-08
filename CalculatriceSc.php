@@ -6,7 +6,6 @@ class CalculatriceSc extends Calculatrice
   public function calculeSc()
   {
    
-
     $resultat = parent::calculer();
 
     if($this->operateur =="pow"){
@@ -15,9 +14,7 @@ class CalculatriceSc extends Calculatrice
     $resultat = $this->nombre1 % $this->nombre2;
   }
    
-
     return $resultat;
-
   }
 }
 

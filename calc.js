@@ -21,15 +21,4 @@ setInterval(() => {
 
 }, 200);
 
-/*
-document.getElementById("calcsc").addEventListener('click',function(){
-    powoption.style.display = "block";
-    console.log(typecalc[0].checked);
-    //console.log(typecalc[1].checked);
-})
 
-document.getElementById("calccl").addEventListener('click',function(){
-  powoption.style.display = "none";
-  console.log(typecalc[0].checked);
-  console.log(typecalc[1].checked);
-})*/

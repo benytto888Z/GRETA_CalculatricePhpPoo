@@ -4,6 +4,10 @@ $nombre1=0;
 $nombre2=0;
 $result = 0;
 
+if(!isset($_SESSION['calctype'])){
+  $_SESSION['calctype'] = 'classique';
+}
+
 
 if(isset($_POST['submitButton']) && isset($_POST['typecalc'])){
 
